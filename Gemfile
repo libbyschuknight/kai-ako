@@ -13,6 +13,10 @@ gem 'capistrano-rails', group: :development
 
 gem 'letter_opener', group: :development
 
+gem 'omniauth'
+gem 'omniauth-github'
+gem 'figaro'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
